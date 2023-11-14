@@ -13,9 +13,11 @@ body{
 }
 
 .fa{
-    height: 100px;
     width: 100px;
-    color: black;
+}
+
+.fa-brands{
+    width: 100px;
 }
 
 .fs-2{
@@ -43,7 +45,7 @@ header{
 }
 
 .front{
-    height: 800px;
+    height: 700px;
     background-color: beige;
     display: flex;
     justify-content: space-between;
