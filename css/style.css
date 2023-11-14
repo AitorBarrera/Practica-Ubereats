@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto.woff2);
+}
+
+body{
+    margin: 0;
+    font-family: roboto;
+}
+
+.fa{
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+
+.fs-2{
+    font-size: 18px;
+}
+
+.fs-3{
+    font-size: 19px;
+}
+
+.mt-1{
+    margin-top: 12px;
+}
+
+.fw-4{
+    font-weight: 500;
+}
+
+a{
+    color: black;
+}
+
+header{
+    height: 70px;
+}
+
+.front{
+    height: 800px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prueba{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pruebaCon{
+    background-color: rgb(82, 136, 0);
+    height: 150px;
+    width: 300px;
+}
+
+.front img{
+    height: 100%;
+}
+
+.rest{
+    padding: 5px 70px;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.news article{
+    width: 32%;
+    flex-direction: column;
+}
+
+article img{
+    width: 100%;
+}
+
+article h1, article p{
+    margin: 10px 0;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    width: 15.55%;
+    height: 100px;
+    background-color: rgb(243, 236, 230);
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.social{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social img{
+    width: 70%;
+}
+
+.misc{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.misc a{
+    text-decoration: none;
+    font-weight: 100;
+    color: rgb(83, 83, 83)
+}
